@@ -45,7 +45,7 @@ Go to List component settings on "Shared Components" -> "Lists".
     Set value to: data-id="x". Replace "x" with the return value (INCLUDING quotation marks). For example: data-id="1".
 
 #### For Classic Report Region
-Add a field to the query according the following table. Replace "id" with return value field, for example emp_no.
+Add a field to the SQL query based on the template type. Replace "id" with return value field, for example emp_no.
 
 Media List template:  
 'data-id=' || "id"  as LINK_ATTR
