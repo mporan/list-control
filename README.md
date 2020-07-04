@@ -12,7 +12,9 @@ Oracle APEX Plug-in to make List and Card items selectable!
 ## Demo App
 
 [View demo app](#)
+
 [Download demo app export file](#)
+
 Demo app can be imported only to APEX 20.1 or above. If you have a previous version, you can import to [apex.oracle.com](https://apex.oracle.com/en/) account.
 
 ## How it Works
@@ -37,20 +39,20 @@ Compatible with APEX 5.1 or above.
 
 ### How to define return values
 
-#### List Region
+#### For List Region
 Go to List component settings on "Shared Components" -> "Lists".
 1.  Choose List.
 2.  Choose list item.
 3.  On "User Defined Attributes" section find "Link Attributes" (3rd item for Media List, 5th item for Cards).  
     Set value to: data-id="x". Replace "x" with the return value (INCLUDING quotation marks). For example: data-id="1".
 
-#### Classic Report Region
+#### For Classic Report Region
 Add a field to the query according the following table. Replace "id" with return value field, for example emp_no.
 
-**Media List template:** 
+Media List template:  
 'data-id=' || "id"  as LINK_ATTR
 
-**Card template:**
+Card template:  
 'lcp-data-id-' || "id" as CARD_MODIFIERS
 
 ### Notes
@@ -78,7 +80,7 @@ Add a field to the query according the following table. Replace "id" with return
 
 **Separator** - Choose whether to add border between selection control and list item content. Only affects Media List template.
 
-### Optional - CSS templates:
+### Optional - CSS templates
 Demo app includes style modifications on some regions. The plug-in's CSS file includes the needed CSS lines. If you want to achieve the same appearance, install the demo app and inspect region's CSS Classes (Appearance section) to find out which class to use.
 
 List of classes:
