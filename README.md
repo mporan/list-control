@@ -33,8 +33,8 @@ Compatible with APEX 5.1 or above.
 1.  Import plug-in file 'dynamic_action_plugin_apexux_mporan_listcontrol.sql' from 'source' directory into your application.
 2.  Create a List or Classic Report region (#1 on image) and specify list or query respectively.
 3.  Provide return values on list/query using the instructions on ["How to define return values"](#how-to-define-return-values)
-4.  On region attributes (#2 on image) select Media List or Card template.
-5.  Create a new page item inside target region (#3 on image).
+4.  On region attributes (#2) select Media List or Card template.
+5.  Create a new page item inside target region (#3).
 6.  For page item 'Type' select 'List Control [Plug-In]'.
 <br/><br/>
 ![Install](https://github.com/mporan/list-control/blob/master/install.png)
