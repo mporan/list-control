@@ -8,9 +8,9 @@ Oracle APEX Plug-in to make List and Card items selectable!
 - **Utilize APEX Templates** - Controls are integrated into powerful APEX UT template regions which are customizable, responsive, and compatible with right to left page direction.
 
 - **Save Dev Time** - The plug-in's hidden page item catches selected item ids on real-time and can be processed effortlessly.
-<br/><br/>
+<br/><br/><br/>
 ![Preview](https://github.com/mporan/list-control/blob/master/list-control-example.png)
-<br/><br/>
+<br/><br/><br/>
   
 ## Demo App
 
