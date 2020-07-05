@@ -1,3 +1,4 @@
+
 # List Control
 
 Oracle APEX Plug-in to make List and Card items selectable!
@@ -17,10 +18,10 @@ Demo app can be imported only to APEX 20.1 or above. If you have a previous vers
 
 ## How it Works
 
-1.  The plug-in's hidden page item resides inside target region (List or Classic Report regions).
-2.  Each change of selection refreshes the page item value with selected ids (This change event can optionally trigger a dynamic action).
-3.  On page submit the page item's value can be processed as with any page item.
-4.  On page load, options are displayed as selected based on plug-in page item's value.
+1.  The plug-in's hidden page item resides inside target region (List and Classic Report regions with native Media List or Card templates).
+1.  On page load, selection controls are added to region's HTML using jQuery. Options are displayed as selected based on plug-in page item's value.
+1.  Each change of selection refreshes the page item value with selected ids (This change event can optionally trigger a dynamic action).
+1.  On page submit the page item's value can be processed as with any page item.
 
 ## Install
 
@@ -58,6 +59,7 @@ Card template:
 1. To display pre-selected items on page load set plug-in page item's value using source/default value/pre-processing. Avoid using "Current List Entry" on list definition.
 2. Some template/plug-in option combinations may be incompatible. 
 3. For region template use "Standard". "Blank with Attributes" template is not supported.
+4. "Plus Circle Checked" icon may not be displayed on older APEX versions. To solve this issue edit JavaScript file and replace "fa-plus-circle-o" with "fa-plus-circle".
 
 ## Plug-In Settings
 
