@@ -1,0 +1,494 @@
+.lcp__ctrl {
+  margin: 11px 11px 8px 11px;
+  z-index: 10;
+}
+
+.t-Cards .lcp__ctrl {
+  position: absolute;
+}
+
+.t-Cards--featured .lcp__ctrl--start,
+.u-RTL .t-Cards--featured .lcp__ctrl--end {
+  left: 0;
+  right: auto;
+}
+
+.u-RTL .t-Cards--featured .lcp__ctrl--start,
+.t-Cards--featured .lcp__ctrl--end {
+  right: 0;
+  left: auto;
+}
+
+.t-Cards--basic .lcp__ctrl {
+  margin: 20px 8px 8px 8px;
+}
+
+.t-Cards--basic .lcp__ctrl.lcp__ctrl--start,
+.u-RTL .t-Cards--basic .lcp__ctrl.lcp__ctrl--end {
+  left: 10px;
+}
+
+.t-Cards--basic .lcp__ctrl.lcp__ctrl--end,
+.u-RTL .t-Cards--basic .lcp__ctrl.lcp__ctrl--start {
+  right: 10px;
+}
+
+.t-Cards--compact .lcp__ctrl {
+  right: 10px;
+  margin: 12px 8px 8px 8px;
+}
+
+.t-Cards--basic.t-Cards--displayIcons .lcp__ctrl,
+.t-Cards--basic.t-Cards--displayInitials .lcp__ctrl {
+  right: 55px;
+  margin: 20px 8px 8px 8px;
+}
+
+.t-Cards--compact.t-Cards--displayIcons .lcp__ctrl,
+.t-Cards--compact.t-Cards--displayInitials .lcp__ctrl {
+  right: 40px;
+  margin: 12px 8px 8px 8px;
+}
+
+.u-RTL .t-Cards--basic.t-Cards--displayIcons .lcp__ctrl,
+.u-RTL .t-Cards--basic.t-Cards--displayInitials .lcp__ctrl {
+  left: 55px;
+  right: auto;
+}
+
+.u-RTL .t-Cards--compact.t-Cards--displayIcons .lcp__ctrl,
+.u-RTL .t-Cards--compact.t-Cards--displayInitials .lcp__ctrl {
+  left: 40px;
+  right: auto;
+}
+
+.t-Cards--displayIcons.t-Cards--basic.lcp__container .lcp__ut-wrap--end .t-Card-titleWrap {
+  padding-right: 100px;
+}
+
+.u-RTL .t-Cards--displayIcons.t-Cards--basic.lcp__container .lcp__ut-wrap--end .t-Card-titleWrap {
+  padding-left: 100px;
+}
+
+.t-Cards--basic.lcp__container .lcp__ut-wrap--visible .t-Card-titleWrap {
+  padding-left: 60px;
+}
+
+.u-RTL .t-Cards--basic.lcp__container .lcp__ut-wrap--visible .t-Card-titleWrap {
+  padding-right: 60px;
+}
+
+.lcp__input {
+  position: relative;
+  width: 18px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.7rem 0;
+  vertical-align: top;
+  min-height: 1.8rem;
+  outline: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden
+}
+
+.t-MediaList.t-MediaList--showIcons.lcp__container .lcp__input {
+  margin-top: 1.2rem
+}
+
+.t-Cards .lcp__input {
+  margin: 0.8rem 0;
+}
+
+.t-MediaList-itemWrap .lcp__input {
+  margin-left: 1.4rem;
+  margin-right: 0;
+  margin-top: 0.8rem;
+}
+
+.u-RTL .t-MediaList-itemWrap .lcp__input {
+  margin-left: 0;
+  margin-right: 1.4rem;
+}
+
+.lcp__input:after,
+.lcp__input:before {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: ''
+}
+
+.u-RTL .lcp__input:after,
+.u-RTL .lcp__input:before {
+  right: 0;
+  left: auto
+}
+
+.lcp__input:before {
+  z-index: 90;
+  transition: background-color .15s ease, box-shadow .15s ease, -webkit-transform .125s ease;
+  transition: transform .125s ease, background-color .15s ease, box-shadow .15s ease;
+  transition: transform .125s ease, background-color .15s ease, box-shadow .15s ease, -webkit-transform .125s ease
+}
+
+.lcp__input:after {
+  color: #fff;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  transition: opacity .15s ease, -webkit-transform .2s ease;
+  transition: opacity .15s ease, transform .2s ease;
+  transition: opacity .15s ease, transform .2s ease, -webkit-transform .2s ease
+}
+
+.t-Card-wrap.lcp__ut-wrap {
+  /* For missing cursor on reports */
+  cursor: pointer;
+}
+
+.lcp__ut-wrap:hover .lcp__input:before {
+  opacity: 1;
+  box-shadow: inset rgba(0, 0, 0, .25) 0 0 0 1px;
+}
+
+.lcp__ut-wrap:active .lcp__input:after,
+.lcp__ut-wrap:active .lcp__input:before {
+  -webkit-transform: scale(.75)!important;
+  transform: scale(.75)!important
+}
+
+.lcp__input--checkbox:before {
+  border-radius: .2rem
+}
+
+.lcp__input--checkbox:after {
+  font-weight: 400!important;
+  content: '\e007';
+  font-size: 14px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-style: normal!important;
+  font-variant: normal!important;
+  text-transform: none!important;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: apex-5-icon-font!important;
+}
+
+.lcp__input--radio:before {
+  border-radius: 100%
+}
+
+.lcp__input--radio:after {
+  width: .6rem;
+  height: .6rem;
+  margin: .5rem;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.lcp__input:before {
+  box-shadow: inset rgba(0, 0, 0, .15) 0 0 0 1px;
+  background-color: #f9f9f9
+}
+
+.lcp__input:after {
+  color: #fff
+}
+
+.lcp__input:hover:before {
+  box-shadow: inset rgba(0, 0, 0, .25) 0 0 0 1px
+}
+
+.lcp__item--selected .t-Card-wrap.lcp__ut-wrap {
+  /*border: 1px solid rgba(0, 118, 223, 0.4);
+    border: 2px solid rgba(0, 118, 223, 1);  */
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 118, 223, 1), 0 2px 7px 1px rgba(3, 3, 3, .175);
+}
+
+.lcp__item--selected .lcp__input:after {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+  transform: scale(1)
+}
+
+.lcp__item--selected .lcp__input:before {
+  background-color: #0076df;
+  box-shadow: none
+}
+
+.lcp__container.t-Cards--animColorFill .t-Card-wrap:focus .t-Card-colorFill:before {
+  opacity: 0;
+}
+
+.lcp__container.t-Cards--animColorFill .lcp__item--selected .t-Card-wrap:focus .t-Card-colorFill:before,
+.lcp__container.t-Cards--animColorFill .lcp__item--selected .t-Card-colorFill:before {
+  height: 100%;
+  opacity: .05;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+}
+
+.lcp__icon--lg.fa {
+  font-size: 22px;
+}
+
+.force-fa-lg .lcp__icon.fa {
+  font-size: 16px;
+}
+
+.force-fa-lg .lcp__icon.lcp__icon--lg.fa {
+  font-size: 26px;
+}
+
+.lcp__icon--off {
+  color: #dfdfdf;
+}
+
+
+/* Media List */
+
+.lcp__container .t-MediaList-itemWrap:focus {
+  box-shadow: none;
+}
+
+.lcp__container--report .t-MediaList-itemWrap {
+  cursor: pointer;
+  color: #006ed0;
+}
+
+.lcp__container--report .t-MediaList-itemWrap:hover {
+  background-color: #fafafa;
+  color: #006ed0;
+}
+
+.t-MediaList .lcp__ctrl {
+  flex: 0 0 36px;
+}
+
+.t-MediaList .lcp__ctrl--start,
+.u-RTL .t-MediaList .lcp__ctrl--end {
+  margin-right: 0;
+  margin-left: 11px;
+  border-right: 1px solid #ededed;
+  border-left: 0;
+}
+
+.u-RTL .t-MediaList .lcp__ctrl--start,
+.t-MediaList .lcp__ctrl--end {
+  margin-left: 0;
+  margin-right: 11px;
+  border-left: 1px solid #ededed;
+  border-right: 0;
+}
+
+.t-MediaList .lcp__ctrl--start.lcp__ctrl--sep-y {
+  flex: 0 0 51px;
+}
+
+.t-MediaList .lcp__ctrl--start.lcp__ctrl--sep-n,
+.u-RTL .t-MediaList .lcp__ctrl--end.lcp__ctrl--sep-n {
+  border-right: 0;
+  padding-right: 0;
+}
+
+.t-MediaList .lcp__ctrl--end.lcp__ctrl--sep-n,
+.u-RTL .t-MediaList .lcp__ctrl--start.lcp__ctrl--sep-n {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.lcp__item--selected .t-MediaList-itemWrap,
+.lcp__item--selected .t-MediaList-itemWrap:hover {
+  background-color: #ebf5ff;
+}
+
+.t-MediaList.lcp__container .lcp__icon {
+  padding-top: 7px;
+  padding-left: 13px;
+}
+
+.u-RTL .t-MediaList.lcp__container .lcp__icon {
+  padding-top: 7px;
+  padding-right: 13px;
+  padding-left: 0;
+}
+
+.t-MediaList.lcp__container .lcp__ctrl--sep-y .lcp__icon {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.t-MediaList.lcp__container .lcp__icon--lg.fa {
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.u-RTL .t-MediaList.lcp__container .lcp__icon--lg.fa {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.t-MediaList.t-MediaList--showIcons.lcp__container .lcp__icon--lg.fa {
+  padding-top: 9px;
+}
+
+.t-MediaList-item--disabled .lcp__input {
+  opacity: .5;
+  cursor: default;
+  pointer-events: none
+}
+
+.t-MediaList-item--disabled .lcp__input:before {
+  opacity: .5
+}
+
+
+/* Cards */
+
+.t-Card-wrap.lcp__ut-wrap {
+  cursor: pointer;
+}
+
+
+/* Mobile */
+
+@media (max-width: 640px) {
+  .lcp__ctrl {
+    flex: 0 0 30px;
+  }
+  .u-RTL .lcp__ctrl {
+    flex: 0 0 30px;
+  }
+  .u-RTL .t-MediaList--showIcons .lcp__ctrl {
+    margin: 6px 12px 0 5px;
+  }
+  .t-MediaList--showIcons .lcp__input {
+    margin-top: 12px;
+  }
+  .t-MediaList .lcp__ctrl--start.lcp__ctrl--sep-y {
+    flex: 0 0 36px;
+  }
+  .t-MediaList .lcp__ctrl--end {
+    padding: 0 10px;
+  }
+  span.lcp__input.lcp__input {
+    margin-left: 4px;
+    margin-right: 0;
+    padding: 0;
+  }
+  .u-RTL span.lcp__input.lcp__input {
+    margin-left: 0;
+    margin-right: 4px;
+    padding: 0;
+  }
+  .t-MediaList .lcp__ctrl {
+    flex: 0 0 22px;
+    margin: 4px 5px 4px 12px;
+  }
+  .t-MediaList.lcp__container .lcp__icon {
+    padding-top: 7px;
+    padding-left: 6px;
+  }
+  .t-MediaList.lcp__container .lcp__icon--lg.fa {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/* Templates */
+
+.lcp-template-list--remove-border .t-MediaList {
+  padding: 12px 0;
+}
+
+.lcp-template-list--remove-border .t-MediaList-item {
+  border-bottom: none;
+}
+
+.lcp-template-cards--hide-title .t-Card-titleWrap {
+  display: none!important;
+}
+
+.lcp-template-cards-b1 .t-Cards--basic .t-Card-titleWrap {
+  min-height: 100px;
+  padding-left: 30px;
+}
+
+.u-RTL .lcp-template-cards-b1 .t-Cards--basic .t-Card-titleWrap {
+  padding-right: 30px;
+}
+
+.lcp-template-cards-b1 .t-Cards--basic .lcp__ctrl {
+  margin: 35px 14px 8px 14px;
+}
+
+.lcp-template-cards-b1 .t-Cards--basic .lcp__icon {
+  margin-top: 8px;
+}
+
+.lcp-template-cards-b1 .t-Cards--basic .lcp__icon.lcp__icon--lg {
+  margin-top: 5px;
+}
+
+.lcp-template-cards-b1--b .t-Card-titleWrap {
+    text-align: center;
+    padding: 12px!important;
+}
+
+.lcp-template-cards-b1--b .t-Card-titleWrap h3.t-Card-title {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 5rem;
+    color: #666;
+}
+
+.lcp-template-cards-b2 .t-Card-icon {
+  background-color: #fff;
+  color: #0076df;
+}
+
+.lcp-template-cards-b2 .fa {
+  font-size: 28px;
+}
+
+.lcp-template-cards-b2 .t-Cards--basic .t-Card-titleWrap {
+  padding: 12px 16px 12px 64px;
+}
+
+.lcp-template-cards-b2 .t-Cards--basic .t-Card-icon {
+  left: 16px;
+  right: auto;
+}
+
+.u-RTL .lcp-template-cards-b2 .t-Cards--basic .t-Card-icon {
+  right: 16px;
+  left: auto;
+}
+
+.lcp-template-cards-f2 .t-Card-icon {
+  background-color: #fff;
+  color: #0076df;
+}
+
+.lcp-template-cards-f2 .force-fa-lg .t-Card-icon .t-Icon.fa {
+  font-size: 48px;
+}
+
+.lcp-template-cards-f2 .lcp__icon.fa {
+  font-size: 22px;
+}
