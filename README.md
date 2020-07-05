@@ -9,6 +9,7 @@ Oracle APEX Plug-in to make List and Card items selectable!
 
 - **Save Dev Time** - The plug-in's hidden page item catches selected item ids on real-time and can be processed effortlessly.
 
+![Preview](https://github.com/mporan/list-control/blob/master/list-control-example.png)
 
 ## Demo App
 
@@ -35,7 +36,7 @@ Compatible with APEX 5.1 or above.
 5.  Create a new page item inside target region (#3 on image).
 6.  For page item 'Type' select 'List Control [Plug-In]'.
 
-[image]
+![Install](https://github.com/mporan/list-control/blob/master/install.png)
 
 ### How to Define Return Values
 
