@@ -12,9 +12,10 @@ Oracle APEX Plug-in to make List and Card items selectable!
 
 ## Demo App
 
-- [View demo app](https://apex.oracle.com/pls/apex/poran/r/list-control)
-- [Download demo app export file](#)  
-Demo app can be imported only to APEX 20.1 or above. If you have a previous version, you can import to [apex.oracle.com](https://apex.oracle.com/en/) account.
+- **[View demo app](https://apex.oracle.com/pls/apex/poran/r/list-control)**
+- Download demo app:  
+Demo app export file is located in repository demo-app directory.  
+It can be imported to APEX 20.1 or above. If you have a previous version, you can import to [apex.oracle.com](https://apex.oracle.com/en/) account.
 
 ## How it Works
 
