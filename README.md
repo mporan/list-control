@@ -1,6 +1,9 @@
 
 # List Control
 
+![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)
+![APEX Built with Love](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/7919f913/badges/apex-love-badge.svg)
+
 Oracle APEX Plug-in to make List and Card items selectable!
 
 - **Boost UX** - Replace old plain checkboxes and radio buttons with effective and engaging UI! Plug-in offers various style options for single/multi selection controls.
