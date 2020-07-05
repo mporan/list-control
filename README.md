@@ -12,7 +12,7 @@ Oracle APEX Plug-in to make List and Card items selectable!
 
 ## Demo App
 
-- [View demo app](#)
+- [View demo app](https://apex.oracle.com/pls/apex/poran/r/list-control)
 - [Download demo app export file](#)  
 Demo app can be imported only to APEX 20.1 or above. If you have a previous version, you can import to [apex.oracle.com](https://apex.oracle.com/en/) account.
 
@@ -29,14 +29,14 @@ Compatible with APEX 5.1 or above.
 
 1.  Import plug-in file 'dynamic_action_plugin_apexux_mporan_listcontrol.sql' from 'source' directory into your application.
 2.  Create a List or Classic Report region (#1 on image) and specify list or query respectively.
-3.  Provide return values on list/query using the instructions on "How to define return values"
+3.  Provide return values on list/query using the instructions on ["How to define return values"](#how-to-define-return-values)
 4.  On region attributes (#2 on image) select Media List or Card template.
 5.  Create a new page item inside target region (#3 on image).
 6.  For page item 'Type' select 'List Control [Plug-In]'.
 
 [image]
 
-### How to define return values
+### How to Define Return Values
 
 #### For List Region
 Go to List component settings on "Shared Components" -> "Lists".
@@ -80,7 +80,7 @@ Card template:
 
 **Separator** - Choose whether to add border between selection control and list item content. Only affects Media List template.
 
-### Optional - CSS templates
+### Optional - CSS Templates
 Demo app includes style modifications on some regions. The plug-in's CSS file includes the needed CSS lines. If you want to achieve the same appearance, install the demo app and inspect region's CSS Classes (Appearance section) to find out which class to use.
 
 List of classes:
