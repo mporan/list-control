@@ -49,7 +49,7 @@ Go to List component settings on "Shared Components" -> "Lists".
 1.  Choose List.
 2.  Choose list item.
 3.  On "User Defined Attributes" section find "Link Attributes" (3rd item for Media List, 5th item for Cards).  
-    Set value to: data-id="x". Replace "x" with the return value (INCLUDING quotation marks). For example: data-id="1".
+    Set value to: data-id="x". Replace "x" with the return value (Including quotation marks). For example: data-id="1".
 
 #### For Classic Report Region
 Add a field to the SQL query based on the template type. Replace "id" with return value field, for example emp_no.
