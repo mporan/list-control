@@ -55,7 +55,7 @@ function mporan_list_control(itemId, a) {
 		}
 
 		function loadControls() {
-			//  add class to reports
+			//  Add class to reports
 			$region.find(containerCls + "[id$='_report']").addClass("lcp__container--report");
 			$region.find(containerCls).addClass("lcp__container");
 			$region.find(itemCls).addClass("lcp__item");
@@ -88,7 +88,7 @@ function mporan_list_control(itemId, a) {
 
 			var ids = apexItemIDList.getValue().length === 0 ? [] : apexItemIDList.getValue().split(':');
 
-			// UT report cards template doesn't have LINK_ATTRIBUTES. Adding data-id manually
+			// Adding data-id attribute for UT report cards template (can't LINK_ATTRIBUTES on APEX). 
 			$region.find(".t-Cards-item").each(function () {
 				var className = this.className.match(/lcp-data-id-\d+/);
 				if (className) {
@@ -108,9 +108,9 @@ function mporan_list_control(itemId, a) {
 		// Load on page load 
 		loadControls(); 
 
-		// reload on region refresh 
+		// Reload on region refresh 
 		$region.on("apexafterrefresh", function () {
-			LoadControls();
+			loadControls();
 		});
 
 		// Handle click  
@@ -122,7 +122,6 @@ function mporan_list_control(itemId, a) {
 
 			if (typeMultiSelectTrue) {
 
-				//DOM object for APEX Item that holds list.
 				var ids = apexItemIDList.getValue().length === 0 ? [] : apexItemIDList.getValue().split(':');
 				ids = ids.map(String);
 
@@ -149,7 +148,7 @@ function mporan_list_control(itemId, a) {
 
 				ids.sort(function (a, b) { return b - a; });
 				
-				//Convert array back to comma delimited list
+				// Convert array back to comma delimited list
 				apexItemIDList.setValue(ids.join(':'));
 			} else {
 				$(this).closest(containerCls).find(itemCls).removeClass(itemSelectedCls);
