@@ -1,7 +1,7 @@
 {
   "name" : "List Control",
   "version" : "1.0.0",
-  "description" : "Make List and Card items selectable! Replace old plain checkboxes and radio buttons with effective and engaging UI!",
+  "description" : "Make List and Card items selectable! Replace standard checkboxes and radio buttons with effective and engaging UI!",
   "keywords" : ["select", "checkbox", "radio", "list", "card", "toggle", "icon"],
   "homepage" : "https://github.com/mporan/list-control",
   "bugs" : {
