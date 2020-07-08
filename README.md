@@ -6,7 +6,7 @@
 
 Oracle APEX Plug-in to make List and Card items selectable!
 
-- **Boost UX** - Replace old plain checkboxes and radio buttons with effective and engaging UI! Plug-in offers various style options for single/multi selection controls.
+- **Boost UX** - Replace standard checkboxes and radio buttons with effective and engaging UI! Plug-in offers various style options for single/multi selection controls.
 
 - **Utilize APEX Templates** - Controls are integrated into powerful APEX UT template regions which are customizable, responsive, and compatible with right to left page direction.
 
