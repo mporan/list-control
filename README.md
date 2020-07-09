@@ -45,8 +45,8 @@ Compatible with APEX 5.1 or above.
 ### How to Define Return Values
 
 #### For List Region
-Go to List component settings on "Shared Components" -> "Lists".
-1.  Choose List.
+Go to list component settings on "Shared Components" -> "Lists".
+1.  Choose list.
 2.  Choose list item.
 3.  On "User Defined Attributes" section find "Link Attributes" (3rd item for Media List, 5th item for Cards).  
     Set value to: data-id="x". Replace "x" with the return value (Including quotation marks). For example: data-id="1".
