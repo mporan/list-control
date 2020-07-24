@@ -63,7 +63,7 @@ Card template:
 ### Notes
 
 1. To display pre-selected items on page load set plug-in page item's value using source/default value/pre-processing. Avoid using "Current List Entry" on list definition.
-2. Some template/plug-in option combinations may be incompatible. 
+2. Some template/plug-in option combinations may be incompatible. For cards, currently works with "featured" style. Other styles may need css fixes.
 3. For region template use "Standard". "Blank with Attributes" template is not supported.
 4. "Plus Circle Checked" icon may not be displayed on older APEX versions. To solve this issue edit JavaScript file and replace "fa-plus-circle-o" with "fa-plus-circle".
 
