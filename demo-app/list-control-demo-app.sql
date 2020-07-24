@@ -28,7 +28,7 @@ prompt APPLICATION 543210 - APEXUX - Matan Poran - List Control Plug-In
 -- Application Export:
 --   Application:     543210
 --   Name:            APEXUX - Matan Poran - List Control Plug-In
---   Date and Time:   10:35 Friday July 24, 2020
+--   Date and Time:   10:46 Friday July 24, 2020
 --   Exported By:     MATAN.PORAN@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -115,7 +115,7 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'APEXUX - Matan Poran - List Control Plug-In'
 ,p_last_updated_by=>'MATAN.PORAN@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20200724103415'
+,p_last_upd_yyyymmddhh24miss=>'20200724104619'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>144
 ,p_ui_type_name => null
@@ -11692,7 +11692,7 @@ wwv_flow_api.create_page(
 ,p_user_interface_id=>wwv_flow_api.id(26434418893383263967)
 ,p_name=>'Home'
 ,p_alias=>'HOME'
-,p_step_title=>'List Control'
+,p_step_title=>'List Control - Oracle APEX Plug-in'
 ,p_autocomplete_on_off=>'OFF'
 ,p_inline_css=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '.a-Menu .t-MegaMenu-list--top {',
@@ -11731,7 +11731,7 @@ wwv_flow_api.create_page(
 ,p_page_template_options=>'#DEFAULT#'
 ,p_page_is_public_y_n=>'Y'
 ,p_last_updated_by=>'MATAN.PORAN@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20200724103415'
+,p_last_upd_yyyymmddhh24miss=>'20200724104619'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(26309697434074519141)
