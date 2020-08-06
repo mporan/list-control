@@ -93,9 +93,9 @@ List of classes:
 
 -   lcp-template-cards-b1
 -   lcp-template-cards-b2
--   lcp-template-cards-b3 (New Aug 6,2020)
+-   lcp-template-cards-b3
 -   lcp-template-cards-f2
--   lcp-template-list-cg1 (New Aug 6,2020)
+-   lcp-template-list-cg1
 -   lcp-template-list--remove-border
 -   lcp-template-cards--hide-title
 
