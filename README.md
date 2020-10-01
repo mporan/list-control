@@ -102,3 +102,6 @@ List of classes:
 ## Planned Features
 1.  Refresh selections on page when plug-in page item value is altered by dynamic action or JavaScript
 1.  Plug-in settings for custom Font APEX icons for selection controls
+
+## Optional Commercial Support
+The guys at FOEX offer commercial support for this plug-in. They have added this plug-in as a part of their "APEX Plug-in Support Package", for more information please visit their [APEX Plug-in Support](https://www.foex.at/plugin-support) page. I have opted to include my plug-in in their support package because you can get professional support for any issues you face in a timely manner as well as the "peace of mind" that it will be supported for many years to come!
